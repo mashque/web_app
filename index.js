@@ -26,6 +26,6 @@ submit.addEventListener("click", () => {
 		city: city
 		
 	}
-    tg.sendData(data);
+    tg.sendData(JSON.stringify(data));
     tg.close();
     });
