@@ -19,6 +19,7 @@ submit.addEventListener("click", () => {
 		}
 	return age;
     }
+	calculateAge();
 	let data = {
 		name:name,
 		age: age,
