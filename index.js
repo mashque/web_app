@@ -24,7 +24,8 @@ submit.addEventListener("click", () => {
 		name:name,
 		age: age,
 		gender: gender,
-		city: city
+		city: city,
+		about: about
 		
 	}
     tg.sendData(JSON.stringify(data));
