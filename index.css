@@ -42,10 +42,14 @@ body {
             width: 90px;
             height: auto;
         }
-		.intro {
-			font-size: 14;
+	.intro {
+	    font-size: 14;
+	    width: calc(100% - 22px);
+	    display: flex;
+            justify-content: center;
+            align-items: center;
 			
-		}
+	}
         .form-container {
             background-color: var(--tg-theme-bg-color);
             padding: 20px;
