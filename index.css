@@ -63,6 +63,7 @@ body {
         .form-container input[type="date"] {
 	    background-color: var(--tg-theme-secondary-bg-color);
             width: calc(100% - 22px);
+	    opacity: 0.8;
             padding: 10px;
             margin-bottom: 15px;
             border: 1px solid var(--tg-theme-section-bg-color);
