@@ -30,6 +30,21 @@
         <input type="text" id="name" name="name" required>
         <label for="age">Дата рождения:</label>
         <input type="date" id="age" name="age" required>
+		<label for="gender">Пол:</label>
+		<select id="gender" name="gender" required>
+			<option value="male">Мужской</option>
+			<option value="female">Женский</option>
+		</select>
+		<label for="city">Город:</label>
+		<select id="city" name="city" required>
+			<option value="">Выберите город</option>
+			<option value="mos">Москва</option>
+			<option value="spb">Санкт-Петербург</option>
+			<option value="ekb">Екатеринбург</option>
+			<option value="krsk">Красноярск</option>
+			<option value="nsk">Новосибирск</option>	
+			<option value="tsk">Томск</option>	
+		</select>
         <label for="about">О себе:</label>
         <textarea id="about" name="about" rows="4" required></textarea>
         <button id="submit">Зарегестрироваться</button>
