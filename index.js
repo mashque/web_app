@@ -15,8 +15,9 @@ submit.addEventListener("click", () => {
     if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
         age--;
     }
-	tg.sendData(age);
+	
+    }
+    tg.sendData(age);
     tg.close();
-	}
     
     });
