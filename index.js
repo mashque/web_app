@@ -19,7 +19,7 @@ submit.addEventListener("click", () => {
 		}
 	
 	}
-	let data {
+	let data = {
 		name:name,
 		age: age,
 		gender: gender,
