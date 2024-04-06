@@ -1,6 +1,7 @@
 body {
             font-family: Arial, sans-serif;
             background-color: var(--tg-theme-secondary-bg-color);
+			color:var(--tg-theme-button-text-color);
             margin: 0;
             padding: 0;
             display: flex;
@@ -42,7 +43,6 @@ body {
             height: auto;
         }
 		.intro {
-			color: var(--tg-theme-text-color);
 			font-size: 14;
 			
 		}
@@ -65,7 +65,7 @@ body {
             width: calc(100% - 22px);
             padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid #ccc;
+            border: 1px solid var(--tg-theme-section-bg-color);
             border-radius: 4px;
             box-sizing: border-box;
         }
