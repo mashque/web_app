@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+	<script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+<header class="header">
+    <img src="https://www.pngall.com/wp-content/uploads/1/Sports-PNG-File-Download-Free.png" alt="Basketball ball" class="header_logo">
+
+<nav class="header_nav">
+	<ul class="header_list">
+		<li><a class="active" href="#!">ГЛАВНАЯ</a></li>
+		<li><a href="#!">О СЕБЕ</a></li>
+		<li><a href="#!">ВСТРЕЧИ</a></li>
+	</ul>
+</nav> 
+</header>
+
+<div class="form-container">
+    <form id="myForm">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="age">Дата рождения:</label>
+        <input type="date" id="age" name="age" required>
+        <label for="about">О себе:</label>
+        <textarea id="about" name="about" rows="4" required></textarea>
+        <button id="submit">Зарегестрироваться</button>
+    </form>
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
