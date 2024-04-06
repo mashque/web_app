@@ -59,6 +59,7 @@ body {
         }
         .form-container input[type="text"],
         .form-container textarea,
+	.form-container select,
         .form-container input[type="date"] {
 	    background-color: var(--tg-theme-secondary-bg-color);
             width: calc(100% - 22px);
