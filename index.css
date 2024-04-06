@@ -1,7 +1,7 @@
 body {
             font-family: Arial, sans-serif;
             background-color: var(--tg-theme-secondary-bg-color);
-	    color:var(--tg-theme-section-header-text-color);
+			color:var(--tg-theme-section-header-text-color);
             margin: 0;
             padding: 0;
             display: flex;
@@ -21,6 +21,7 @@ body {
 			padding:0;
 		}
 		.header{
+			padding: 15px 0;
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
@@ -33,23 +34,33 @@ body {
         .header_nav a{
             font-size: 14;
 			opacity: 0.7;
+			transition: opacity 0.3s;
+        }
+		.header_nav a:hover{
+            opacity: 0.9;
         }
 		.header_nav a.active{
             font-size: 14;
 			opacity: 1;
+			transition: opacity 0.3s;
+        }
+		.header_nav a.active:hover{
+            font-size: 14;
+			opacity: 0.9;
         }
         .header_logo {
             width: 90px;
             height: auto;
         }
-	.intro {
-	    font-size: 14;
-	    width: calc(100% - 22px);
-	    display: flex;
+		.intro {
+			font-size: 14;
+			padding: 5px 5px;
+			width: calc(100% - 22px);
+			display: flex;
             justify-content: center;
             align-items: center;
 			
-	}
+		}
         .form-container {
             background-color: var(--tg-theme-bg-color);
             padding: 20px;
@@ -63,16 +74,19 @@ body {
         }
         .form-container input[type="text"],
         .form-container textarea,
-	.form-container select,
+		.form-container select,
         .form-container input[type="date"] {
-	    background-color: var(--tg-theme-secondary-bg-color);
+			background-color: var(--tg-theme-secondary-bg-color);
+			color:var(--tg-theme-section-header-text-color);
+			opacity: 0.8;
             width: calc(100% - 22px);
-	    opacity: 0.8;
-            padding: 10px;
+            padding: 5px;
             margin-bottom: 15px;
             border: 1px solid var(--tg-theme-section-bg-color);
             border-radius: 4px;
             box-sizing: border-box;
+			justify-content: center;
+            align-items: center;
         }
         button {
             background-color: var(--tg-theme-button-color);
@@ -82,7 +96,10 @@ body {
             border-radius: 4px;
             cursor: pointer;
             font-size: 14px;
+			justify-content: center;
+            align-items: center;
+			transition: opacity 0.3s;
         }
         button:hover {
-            background-color: var(--tg-theme-secondary-bg-color);
+            opacity: 0.7;
         }
