@@ -18,7 +18,7 @@ submit.addEventListener("click", () => {
 	return age;
    	}
     }
-    tg.sendData(name);
+    tg.sendData(age);
     tg.close();
     
     });
